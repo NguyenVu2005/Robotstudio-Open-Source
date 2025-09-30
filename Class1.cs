@@ -74,7 +74,7 @@ namespace RobotStudioTextAddin
                 try
                 {
                     // Create OpenAI client with environment key
-                    //var client = new OpenAIClient(Environment.GetEnvironmentVariable("chatgpt_api"));
+                    //var client = new OpenAIClient(Environment.GetEnvironmentVariable(""));
 
                     var apiKey = "";//luffysolosyonko's personal api key
                     var client = new OpenAIClient(apiKey);
